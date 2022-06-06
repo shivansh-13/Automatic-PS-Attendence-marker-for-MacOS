@@ -1,0 +1,148 @@
+{
+  "id": "980f1b30-cd17-4253-9eb0-16b47ef821fa",
+  "version": "2.0",
+  "name": "try3ffps",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "2e8ee0eb-7a8e-49c4-bb16-e8716a534fca",
+    "name": "try3ffps",
+    "commands": [{
+      "id": "09cd1b64-3721-4b22-9f8e-a1343801dff0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7abd613-5c4d-414b-9215-21dfc15cc72e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6844b822-e880-4d31-a4e4-4e532a3591b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a3ff0a-e5e9-4e55-b44a-37326e337021",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "http://lms-practice-school.bits-pilani.ac.in"
+    }, {
+      "id": "bd264a8d-e814-41c9-ad80-6ee223b63042",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ff06ee-1f17-4f0e-8879-204bfab0741f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rso > .g:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=#rso > .g:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BITS Pilani Practice School LMS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1241bfc-dc84-410e-958f-eb071b09ef02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-truncate:nth-child(3)",
+      "targets": [
+        ["css=.text-truncate:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='course-info-container-2100-9']/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Swecha - Web Development(2022)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e279d015-ff57-4b38-b668-0982564d19d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#module-5769 .instancename",
+      "targets": [
+        ["css=#module-5769 .instancename", "css:finder"],
+        ["xpath=//li[@id='module-5769']/div/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div[3]/ul/li/div/div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0688cdd1-2d4e-4f32-baa4-c36165509d5d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Submit attendance",
+      "targets": [
+        ["linkText=Submit attendance", "linkText"],
+        ["css=.statuscol > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit attendance')]", "xpath:link"],
+        ["xpath=//section[@id='region-main']/div/table/tbody/tr[2]/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://lms-practice-school.bits-pilani.ac.in/mod/attendance/attendance.php?sessid=28928&sesskey=7Ba5mRRhX9')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Submit attendance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c9a7b9-4400-45ea-b23f-7c8c61d30d82",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_status_2497",
+      "targets": [
+        ["id=id_status_2497", "id"],
+        ["name=status", "name"],
+        ["css=#id_status_2497", "css:finder"],
+        ["xpath=//input[@id='id_status_2497']", "xpath:attributes"],
+        ["xpath=//label[@id='yui_3_17_2_1_1654495236370_70']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4610435-1535-4e5a-810e-215a93b268f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_submitbutton",
+      "targets": [
+        ["id=id_submitbutton", "id"],
+        ["name=submitbutton", "name"],
+        ["css=#id_submitbutton", "css:finder"],
+        ["xpath=//input[@id='id_submitbutton']", "xpath:attributes"],
+        ["xpath=//div[@id='fgroup_id_buttonar']/div[2]/fieldset/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "71f8695c-b115-4406-9ed7-22e4b4879fca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2e8ee0eb-7a8e-49c4-bb16-e8716a534fca"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
